@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.0-r2 (2026-11-19)
+
+No breaking changes. README only: adds the Deploy on Railway button for the published template `tinyauth`. Nothing to do on applied deploys.
+
 ## 5.2.0-r1 (2026-11-19)
 
 First release of this template.

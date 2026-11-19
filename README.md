@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/tinyauth?utm_medium=integration&utm_source=button&utm_campaign=tinyauth)
+
 # Tinyauth on Railway
 
 Railway template for [Tinyauth](https://tinyauth.app) ([tinyauthapp/tinyauth](https://github.com/tinyauthapp/tinyauth)), a small, OpenID Certified login server: a login page, forward-auth for reverse proxies, and an OpenID Connect provider for your other apps.
