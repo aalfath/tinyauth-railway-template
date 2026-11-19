@@ -4,7 +4,7 @@ FROM ghcr.io/tinyauthapp/tinyauth:v5.2.0@sha256:220aa235c76393a73fece831d7ba967b
 COPY start.sh /usr/local/bin/railway-start.sh
 RUN chmod 755 /usr/local/bin/railway-start.sh
 
-# All state (SQLite database, OIDC signing keys, resources) lives here. Mount a volume on /data.
-VOLUME ["/data"]
+# All state (SQLite database, OIDC signing keys, resources) lives in /data: the template
+# mounts a Railway volume there (Railway rejects a VOLUME line in the Dockerfile).
 
 ENTRYPOINT ["/usr/local/bin/railway-start.sh"]
